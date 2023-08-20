@@ -1,0 +1,16 @@
+body {
+  background-color: #212122;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+    background-color: bisque;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+}
