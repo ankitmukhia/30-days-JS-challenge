@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div>
+      <h1>Weather App</h1>
+      <div style="display: flex; justify-content: space-between">
+        <div class="box">
+          <p
+            id="main-weather"
+            style="
+              font-size: 30px;
+              font-family: 'Courier New', Courier, monospace;
+              font-weight: 800;
+            "
+          ></p>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="small-box">
+          <p id="pressure"></p>
+        </div>
+        <div class="small-box">
+          <p id="wind"></p>
+        </div>
+        <div class="small-box">
+          <p id="humidity"></p>
+        </div>
+      </div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
